@@ -1,4 +1,4 @@
-using System;
+ёusing System;
 
 class Program
 {
@@ -20,7 +20,7 @@ class Program
 
         // Вывод ступенчатого массива
         Console.WriteLine("Ступенчатый массив:");
-        PrintstupArray(stupArray);
+        PrintStupArray(stupArray);
     }
 
     public static int[] ReadArray(int n)

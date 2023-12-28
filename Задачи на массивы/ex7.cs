@@ -9,7 +9,7 @@ class Program
         int n = int.Parse(Console.ReadLine());
 
         // Ввод с клавиатуры элементов массива
-        int[] array = ReadArray(n);
+        int[,] array = ReadArray(n);
 
         // Вывод массива
         Console.WriteLine("Массив:");
@@ -23,24 +23,27 @@ class Program
         PrintMatrix(matrix);
     }
 
-    public static int[] ReadArray(int n)
+    public static int[,] ReadArray(int n)
     {
-        int[] array = new int[n];
+        int[,] array = new int[n, 1];
 
         for (int i = 0; i < n; i++)
         {
             Console.Write("Введите элемент массива: ");
-            array[i] = int.Parse(Console.ReadLine());
+            array[i, 0] = int.Parse(Console.ReadLine());
         }
 
         return array;
     }
 
-    public static void PrintArray(int[] array)
+    public static void PrintArray(int[,] array)
     {
-        foreach (int num in array)
+        int rows = array.GetLength(0);
+        int cols = array.GetLength(1);
+
+        for (int i = 0; i < rows; i++)
         {
-            Console.Write(num + " ");
+            Console.Write(array[i, 0] + " ");
         }
         Console.WriteLine();
     }

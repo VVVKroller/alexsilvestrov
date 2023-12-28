@@ -4,45 +4,56 @@ class Program
 {
     static void Main()
     {
-        // Ввод с клавиатуры количество элементов массива
-        Console.Write("Введите количество элементов массива: ");
-        int n = int.Parse(Console.ReadLine());
+        // Ввод с клавиатуры количество строк ступенчатого массива
+        Console.Write("Введите количество строк ступенчатого массива: ");
+        int rows = int.Parse(Console.ReadLine());
 
-        // Ввод с клавиатуры элементов массива
-        int[] array = ReadArray(n);
+        // Ввод с клавиатуры элементов ступенчатого массива
+        int[][] array = ReadArray(rows);
 
-        // Вывод массива
+        // Вывод ступенчатого массива
         Console.WriteLine("Массив:");
         PrintArray(array);
     }
 
-    public static int[] ReadArray(int n)
+    public static int[][] ReadArray(int rows)
     {
-        int[] array = new int[n];
+        int[][] array = new int[rows][];
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < rows; i++)
         {
-            Console.Write("Введите элемент массива: ");
-            array[i] = int.Parse(Console.ReadLine());
+            Console.Write($"Введите количество элементов в строке {i + 1}: ");
+            int elements = int.Parse(Console.ReadLine());
+
+            array[i] = new int[elements];
+
+            for (int j = 0; j < elements; j++)
+            {
+                Console.Write($"Введите элемент массива [{i}, {j}]: ");
+                array[i][j] = int.Parse(Console.ReadLine());
+            }
         }
 
         return array;
     }
 
-    public static void PrintArray(int[] array)
+    public static void PrintArray(int[][] array)
     {
-        Console.Write("[");
-
         for (int i = 0; i < array.Length; i++)
         {
-            Console.Write(array[i]);
+            Console.Write("[");
 
-            if (i < array.Length - 1)
+            for (int j = 0; j < array[i].Length; j++)
             {
-                Console.Write(", ");
-            }
-        }
+                Console.Write(array[i][j]);
 
-        Console.WriteLine("]");
+                if (j < array[i].Length - 1)
+                {
+                    Console.Write(", ");
+                }
+            }
+
+            Console.WriteLine("]");
+        }
     }
 }
