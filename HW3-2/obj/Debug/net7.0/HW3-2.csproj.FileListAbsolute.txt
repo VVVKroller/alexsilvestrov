@@ -1,0 +1,15 @@
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/obj/Debug/net7.0/HW3-2.csproj.AssemblyReference.cache
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/obj/Debug/net7.0/HW3-2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/obj/Debug/net7.0/HW3-2.AssemblyInfoInputs.cache
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/obj/Debug/net7.0/HW3-2.AssemblyInfo.cs
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/obj/Debug/net7.0/HW3-2.csproj.CoreCompileInputs.cache
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/bin/Debug/net7.0/HW3-2
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/bin/Debug/net7.0/HW3-2.deps.json
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/bin/Debug/net7.0/HW3-2.runtimeconfig.json
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/bin/Debug/net7.0/HW3-2.dll
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/bin/Debug/net7.0/HW3-2.pdb
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/obj/Debug/net7.0/HW3-2.dll
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/obj/Debug/net7.0/refint/HW3-2.dll
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/obj/Debug/net7.0/HW3-2.pdb
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/obj/Debug/net7.0/HW3-2.genruntimeconfig.cache
+/Users/alexsilvestrov/Projects/HW3-2/HW3-2/obj/Debug/net7.0/ref/HW3-2.dll
