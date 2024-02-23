@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexsilvestrov/Code/VS Code/1533/lit1533/HW3-2/HW3-2.csproj",
-      "projectName": "HW3-2",
-      "projectPath": "/Users/alexsilvestrov/Code/VS Code/1533/lit1533/HW3-2/HW3-2.csproj",
+      "projectUniqueName": "/Users/alexsilvestrov/Projects/HW3-3/HW3-3/HW3-3.csproj",
+      "projectName": "HW3-3",
+      "projectPath": "/Users/alexsilvestrov/Projects/HW3-3/HW3-3/HW3-3.csproj",
       "packagesPath": "/Users/alexsilvestrov/.nuget/packages/",
-      "outputPath": "/Users/alexsilvestrov/Code/VS Code/1533/lit1533/HW3-2/obj/",
+      "outputPath": "/Users/alexsilvestrov/Projects/HW3-3/HW3-3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alexsilvestrov/.nuget/NuGet/NuGet.Config"
